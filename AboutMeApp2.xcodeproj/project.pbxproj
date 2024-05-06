@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99324F6C2BE8CA21000895A8 /* PersonBioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99324F6B2BE8CA21000895A8 /* PersonBioViewController.swift */; };
+		999032442BE69D5900EA7ED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999032432BE69D5900EA7ED0 /* User.swift */; };
+		999032462BE6B2FD00EA7ED0 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999032452BE6B2FD00EA7ED0 /* PersonInfoViewController.swift */; };
+		9990324D2BE6D50900EA7ED0 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990324C2BE6D50900EA7ED0 /* TapBarViewController.swift */; };
 		99D800792BE107BA009FC3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D800782BE107BA009FC3D4 /* AppDelegate.swift */; };
 		99D8007B2BE107BA009FC3D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8007A2BE107BA009FC3D4 /* SceneDelegate.swift */; };
-		99D8007D2BE107BA009FC3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8007C2BE107BA009FC3D4 /* ViewController.swift */; };
+		99D8007D2BE107BA009FC3D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8007C2BE107BA009FC3D4 /* LoginViewController.swift */; };
 		99D800802BE107BA009FC3D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99D8007F2BE107BA009FC3D4 /* Base */; };
 		99D800822BE107BA009FC3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D800812BE107BA009FC3D4 /* Assets.xcassets */; };
 		99D800852BE107BA009FC3D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99D800842BE107BA009FC3D4 /* Base */; };
@@ -17,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99324F6B2BE8CA21000895A8 /* PersonBioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonBioViewController.swift; sourceTree = "<group>"; };
+		999032432BE69D5900EA7ED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		999032452BE6B2FD00EA7ED0 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
+		9990324C2BE6D50900EA7ED0 /* TapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
 		99D800752BE107BA009FC3D4 /* AboutMeApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D800782BE107BA009FC3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D8007A2BE107BA009FC3D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99D8007C2BE107BA009FC3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99D8007C2BE107BA009FC3D4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		99D8007F2BE107BA009FC3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99D800812BE107BA009FC3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D800842BE107BA009FC3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +47,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		999032472BE6C2C100EA7ED0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99D8007C2BE107BA009FC3D4 /* LoginViewController.swift */,
+				99D8008C2BE117DF009FC3D4 /* GreetingViewController.swift */,
+				999032452BE6B2FD00EA7ED0 /* PersonInfoViewController.swift */,
+				9990324C2BE6D50900EA7ED0 /* TapBarViewController.swift */,
+				99324F6B2BE8CA21000895A8 /* PersonBioViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		999032482BE6C32700EA7ED0 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				99D8007E2BE107BA009FC3D4 /* Main.storyboard */,
+				99D800832BE107BA009FC3D4 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		999032492BE6C34400EA7ED0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				99D800782BE107BA009FC3D4 /* AppDelegate.swift */,
+				99D8007A2BE107BA009FC3D4 /* SceneDelegate.swift */,
+				99D800862BE107BA009FC3D4 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9990324A2BE6C37D00EA7ED0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				99D800812BE107BA009FC3D4 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		9990324B2BE6C42B00EA7ED0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				999032432BE69D5900EA7ED0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		99D8006C2BE107BA009FC3D4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +113,11 @@
 		99D800772BE107BA009FC3D4 /* AboutMeApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				99D800782BE107BA009FC3D4 /* AppDelegate.swift */,
-				99D8007A2BE107BA009FC3D4 /* SceneDelegate.swift */,
-				99D8007C2BE107BA009FC3D4 /* ViewController.swift */,
-				99D8008C2BE117DF009FC3D4 /* GreetingViewController.swift */,
-				99D8007E2BE107BA009FC3D4 /* Main.storyboard */,
-				99D800812BE107BA009FC3D4 /* Assets.xcassets */,
-				99D800832BE107BA009FC3D4 /* LaunchScreen.storyboard */,
-				99D800862BE107BA009FC3D4 /* Info.plist */,
+				999032492BE6C34400EA7ED0 /* App */,
+				999032472BE6C2C100EA7ED0 /* ViewControllers */,
+				9990324B2BE6C42B00EA7ED0 /* Models */,
+				999032482BE6C32700EA7ED0 /* StoryBoards */,
+				9990324A2BE6C37D00EA7ED0 /* Resourses */,
 			);
 			path = AboutMeApp2;
 			sourceTree = "<group>";
@@ -141,9 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D8007D2BE107BA009FC3D4 /* ViewController.swift in Sources */,
+				99324F6C2BE8CA21000895A8 /* PersonBioViewController.swift in Sources */,
+				9990324D2BE6D50900EA7ED0 /* TapBarViewController.swift in Sources */,
+				99D8007D2BE107BA009FC3D4 /* LoginViewController.swift in Sources */,
+				999032462BE6B2FD00EA7ED0 /* PersonInfoViewController.swift in Sources */,
 				99D800792BE107BA009FC3D4 /* AppDelegate.swift in Sources */,
 				99D8007B2BE107BA009FC3D4 /* SceneDelegate.swift in Sources */,
+				999032442BE69D5900EA7ED0 /* User.swift in Sources */,
 				99D8008D2BE117DF009FC3D4 /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K22JFPLWF3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMeApp2/Info.plist;
+				INFOPLIST_FILE = AboutMeApp2/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +386,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K22JFPLWF3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMeApp2/Info.plist;
+				INFOPLIST_FILE = AboutMeApp2/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
